@@ -72,8 +72,3 @@
     opacity: 1;
   }
 }
-
-@keyframes orange {
-  50% { left: 0; }
-  90% { left: 300px; }
-}

@@ -8,13 +8,8 @@ let url = [
   './img/images4.jpg',
 ];
 
-let i = 0;
-
 setInterval(function() {
+  let random = Math.floor(Math.random() * url.length);
   let element = document.getElementById('wrapper');
-  element.style.backgroundImage = `url( ${ url[i] } )`;
-  i++;
-  if (i === url.length) {
-    i =  0;
-  }
-}, 2880000);
+  element.style.backgroundImage = `url( ${ url[random] } )`;
+}, 28800000);
