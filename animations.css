@@ -1,0 +1,79 @@
+@keyframes background {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes form-transform {
+  0% {
+    transform-origin: top;
+    transform: rotateX(-60deg);
+    opacity: 0;
+  }
+  15% {
+    transform-origin: top;
+    transform: rotateX(-40deg);
+    opacity: 0.2;
+  }
+
+  25% {
+    transform-origin: top;
+    transform: rotateX(-38deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform-origin: top;
+    transform: rotateX(-25deg);
+    opacity: 0.7;
+  }
+  75% {
+    transform-origin: top;
+    transform: rotateX(10deg);
+    opacity: 1;
+  }
+  100% {
+    transform-origin: top;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes logo-transform {
+  0% {
+    transform: rotateX(30deg);
+    opacity: 0.6;
+  }
+  25% {
+    transform: rotateX(60deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: rotateX(40deg);
+    opacity: 0.8;
+  }
+  75% {
+    transform: rotateX(30deg);
+    opacity: 0.9;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes orange {
+  50% { left: 0; }
+  90% { left: 300px; }
+}
