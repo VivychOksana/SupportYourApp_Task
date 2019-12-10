@@ -8,12 +8,13 @@ let url = [
   './img/images4.jpg',
 ];
 
+let i = 0;
+
 setInterval(function() {
   let element = document.getElementById('wrapper');
-  let i = 0;
   element.style.backgroundImage = `url( ${ url[i] } )`;
   i++;
   if (i === url.length) {
     i =  0;
   }
-}, 1000);
+}, 2880000);
